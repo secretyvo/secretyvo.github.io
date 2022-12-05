@@ -1,0 +1,271 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Regular.ttf);
+}
+
+body{
+    font-family: Poppins;
+    margin: auto;
+    color: white;
+}
+
+nav, header{
+    background-color: #2E2F34;
+}
+
+.logo img{
+    height: 55px;
+    margin-left: 97px;
+    padding-top: 45px;
+}
+ul, li{
+    list-style: none;
+    display: flex;
+    font-family: Roboto;
+}
+
+li{
+    padding: 28px;
+}
+
+.image1 {
+    display: flex;
+    height: 20px;
+    margin: auto;
+    margin-right: 95px;
+}
+
+.image1 img{
+    padding-right: 10px;
+
+}
+.three .image img{
+    padding-right: 30px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 489px;
+    /* margin-top: -65px; */
+    cursor: pointer;
+}
+
+.menu hr{
+    height: 20px;
+    margin: auto;
+    margin-right: 24px;
+}
+
+.Logo  {
+    height: 29px;
+}
+
+.ivonia{
+    height: 125px;
+    padding-left: 92px;
+    padding-top: 80px;
+}
+
+header hr{
+    width: 45px;
+    margin-left: 91px;
+    margin-top: 30px;
+    border: 0.9px solid #EA992E;
+}
+
+.contact1{
+    padding-left: 90px;
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+.behance{
+    padding-left: 14px;
+}
+
+.contact{
+    margin-top: 30px;
+    padding: 12px;
+    margin-left: 90px;
+    background: none;
+    color: #EA992E;
+    border: 2px solid #EA992E;
+    cursor: pointer;
+}
+
+.text{
+  padding-left: 787px;
+  margin-top: -272px;
+  padding-bottom: 280px;
+  margin-right: 100px;
+}
+
+.text h2{
+    font-family: Poppins;
+    color: #EA992E;
+    font-size: 14px;
+}
+
+.text h1{
+    font-family: Roboto;
+    margin-top: 15px;
+}
+
+.intro{
+    margin-top: -9px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #EA992E;
+    margin-top: 3px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.two{
+    background-color: #34353A;
+    padding-top: 100px;
+    height: 110vh;
+}
+
+.text1 h1, .text4 h1, .text5 h1, .text6 h1{
+    text-align: center;
+    margin-top: -11px;
+
+}
+
+.helo, .skill, .port, .contactt{
+    color: #EA992E;
+    text-align: center;
+}
+
+.text1 p, .text4 p, .text5 p, .text6 p{
+   padding-top: 2px;
+   text-align: center;
+}
+
+.text2, .text3{
+    font-family: Roboto;
+    line-height: 35px;
+}
+
+
+.three{
+    background-color: #2E2F34;
+    padding-top: 100px;
+    height: 110vh;
+}
+
+
+.four{
+    background-color: #34353A;
+    padding-top: 100px;
+    height: 185vh;
+}
+
+.contact3{
+    background-color: #2E2F34;
+    padding-top: 100px;
+    height: 72vh;
+}
+
+.last{
+    height: 14%;
+    padding-left: 135px;
+    padding-top: 60px;
+}
+
+.hey{
+    margin-top: 65px;
+    border: 0.8px solid #EA992E;
+}
+
+.all button{
+    background: none;
+    margin: 10px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: inherit;
+    position: relative;
+    transition: all .5s ease;
+}
+.all button:hover {
+    color: #EA992E;
+}
+
+.all button:hover::before {
+    opacity: 1;
+}
+
+
+.portofolio{
+    display: none;
+}
+.garisH {
+    border-left: 1px solid #fff;
+}
+
+.datadiri > div {
+    margin: 65px 0 !important;
+}
+
+.d-flex{
+    display: flex;
+    width: 100%;
+}
+
+.all button::before {
+    content: "";
+    background: #ea992e;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    transition: all .5s ease;
+    opacity: 0;
+}
+
+.datadiri {
+    justify-content: space-evenly;
+    margin: 55px 145px;
+    width: auto;
+    border: 3px solid #ea992e;
+}
+.three .image{
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    padding-top: 50px;
+}
+ .image .tiga img, .image .empat img{
+    width: 100%;
+    object-fit: cover;
+    height: 107vh;
+}
+
+.satudua img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.satudua img:nth-child(1){
+    margin-bottom: 40px;
+}
+
+
+.satudua, .tiga, .empat {
+    width: 33.333%;
+}
+
+.all{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
